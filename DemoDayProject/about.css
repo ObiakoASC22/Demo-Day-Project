@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(white, gray);
+}
+
+.home {
+    color: gray;
+    text-decoration: none;
+}
+
+.aboutNav {
+    text-decoration: underline;
+    color: cyan;
+}
+
+#aboutP {
+    padding: 10px;
+}
+
+#us {
+    border-style: solid;
+    border-color: black;
+}
+
+#we {
+    border-style: solid;
+    border-color: black;
+}
+
+#contactInfo {
+    border-style: solid;
+    border-color: black;
+}
+
+#contact {
+    margin-top: 20px;
+}
