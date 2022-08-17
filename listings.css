@@ -2,3 +2,38 @@
     text-decoration: none;
     color: gray;
 }
+
+#listingTransition {
+    background-image: url('people3.jpg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+}
+
+.listingTH {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, white, gray)
+}
+
+.Little {
+    height: 200px;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+}
+.bank {
+    height: 200px;
+}
+
+#red a{
+    color: black;
+}
+
+.LE:hover {
+    color: cyan;
+    text-decoration: underline;
+}
