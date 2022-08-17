@@ -1,0 +1,263 @@
+body {
+    margin: 0px;
+    background-color:bisque;
+    font-family:fantasy;
+}
+
+/* Navigation Bar */
+#navBar {
+    background-color: #212529;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    height:100px;
+    
+}
+
+#navList {
+    display: flex;
+    list-style: none;
+}
+
+.navItem {
+    padding-bottom: 10px;
+    padding: 15px;
+    font-size: 25px;
+    color: grey;
+}
+#navImage {
+  height: 70px;
+  padding-top: 5px;
+}
+
+/* Transition Content */
+#transitionalContent {
+    text-align: center;
+    background-image: url('people2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+    margin: 5%;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: -21px;
+    margin-bottom: -75px;
+}
+
+
+/* Text Container */
+#text {
+    display: flex;
+    /* background-color: white; */
+    background-image: linear-gradient(white, gray);
+}
+
+/* Main Text Box */
+#mainText {
+    display: flex;
+    flex-direction: column;
+
+    border-style: solid;
+    border-color: black;
+
+    margin: 5%;
+    width: 60%;
+    text-align: center;
+}
+
+.listing {
+
+    margin: 20px;
+
+    display: flex;
+}
+.listingText {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Side Text Box */
+#sideText {
+    display: flex;
+    flex-direction: column;
+    
+    border-style: solid;
+    border-color:black;
+    margin: 5%;
+    margin-left: 0px;
+    width: 30%;
+    text-align: center;
+}
+
+.stItem {
+    display: flex;
+    flex-direction: column;
+
+    border-style: solid;
+    border-color: black;
+    margin: 10px;
+    
+
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navItem:hover {
+    text-decoration: underline;
+    color: cyan;
+}
+
+.home {
+    text-decoration: underline;
+    color: cyan; 
+}
+
+.wsnyc {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-bottom: 50px;
+}
+
+#purple {
+    display: flex;
+    flex-direction: row;
+}
+
+.ANY {
+    float: right;
+}
+
+.habitat {
+    float: left;
+    padding-bottom: 15px;
+}
+
+.emptyspace {
+    visibility: hidden;
+}
+
+.transitionH {
+    background-color: white;
+}
+
+#purple2 {
+    background-color: purple;
+    margin-left: -35px;
+    margin-right: -20px;
+}
+
+#red {
+    background-color: red;
+    margin-left: -35px;
+    margin-right: -20px;
+}
+
+#blue {
+    background-color: blue;
+    margin-left: -35px;
+    margin-right: -20px;
+}
+
+
+
+.transitionH {
+    background-color: white;
+}
+
+#purple2 {
+    background-color: purple;
+    margin-left: -35px;
+    margin-right: -20px;
+}
+
+#red {
+    background-color: red;
+    margin-left: -35px;
+    margin-right: -20px;
+}
+
+#blue {
+    background-color: blue;
+    margin-left: -35px;
+    margin-right: -20px;
+}
+
+#contact {
+    background-color: #212529;
+    color: grey;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.ourcontacts {
+    display: flex;
+    flex-direction: column;
+}
+
+#college {
+    margin: 45px;
+    background-color: rgb(65, 18, 140);
+    padding: 15px;
+}
+
+#networking {
+    background-color: crimson;
+    padding: 5px;
+    width: 300px;
+    margin-left: 45px;
+}
+
+#social {
+   background-color:dodgerblue;
+   width: 290px;
+   margin-left: 45px;
+   padding: 10px;
+}
+
+#experience {
+    background-color: bisque;
+    width: 290px;
+    padding: 10px;
+    margin-left: 45px;
+}
+
+#purple p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#red p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#blue p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#college p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#networking p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#social p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#experience p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.listings {
+    color: cyan;
+    text-decoration:underline;
+}
